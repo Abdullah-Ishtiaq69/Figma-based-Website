@@ -35,6 +35,7 @@
     border: none;
     border-radius: 14px;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .container {
@@ -120,4 +121,37 @@ body {
     border: 1px solid var(--blck-clr);
     border-radius: 14px;
     padding: 14px 26px;
+}
+
+/* Hero Section */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.hero-sec-left {
+    width: 50%;
+}
+
+.hero-sec-left h1 {
+    font-size: var(--fs-heading-1);
+}
+
+.hero-sec-left p {
+    font-size: var(--fs-heading-4);
+}
+
+.hero-sec-left .btn {
+    font-weight: var(--fs-heading-5);
+}
+
+.hero-sec-right {
+    width: 40%;
+}
+
+.hero-sec-right img {
+    width: 100%;
 }
