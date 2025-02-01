@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --fs-heading-1: 60px;
+    --fs-heading-2: 40px;
+    --fs-heading-3: 30px;
+    --fs-heading-4: 20px;
+    --fs-heading-5: 18px;
+    --fs-m-heading-1: 43px;
+    --fs-m-heading-2: 36px;
+    --fs-m-heading-3: 26px;
+    --fs-m-heading-4: 18px;
+    --fs-m-heading-5: 16px;
+    --grn-clr: #B9FF66;
+    --blck-clr: #191A23;
+    --wht-clr: #F3F3F3;
+}
+
+/* utility Classes */
+
+.light-blck {
+    color: var(--blck-clr);
+    font-weight: 400;
+}
+
+.bold-blck {
+    color: var(--blck-clr);
+    font-weight: 500;
+}
+
+.btn {
+    background-color: var(--blck-clr);
+    color: var(--wht-clr);
+    padding: 16px 24px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mrg-btm-1 {
+    margin-bottom: 20px;
+}
+
+.mrg-btm-2 {
+    margin-bottom: 30px;
+}
+
+.mrg-btm-3 {
+    margin-bottom: 60px;
+}
+
+.mrg-btm-4 {
+    margin-bottom: 80px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/* Reset CSS */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk' , serif;
+    font-size: 100%;
+}
+
+/* Main Styling */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo {
+    width: 14%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav-links a {
+    color: var(--blck-clr);
+    font-size: var(--fs-heading-5);
+}
+
+.last-link {
+    border: 1px solid var(--blck-clr);
+    border-radius: 14px;
+    padding: 14px 26px;
+}
