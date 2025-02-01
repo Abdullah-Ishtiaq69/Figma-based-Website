@@ -148,9 +148,91 @@ body {
     width: 100%;
 }
 
+/* Company Section */
+
 .company-section-logos {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 80px auto;
 }
+
+/* Services Section */
+
+.services-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.services-heading h2 {
+    font-size: var(--fs-heading-2);
+    background-color: var(--grn-clr);
+    padding: 8px 16px;
+    border-radius: 7px;
+}
+
+.services-txt p {
+    width: 60%;
+}
+
+/* Services Card Section */
+
+.services-card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.card {
+    width: 44%;
+    border: 1px solid var(--blck-clr);
+    border-radius: 45px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-card {
+    background-color: var(--wht-clr);
+}
+
+.right-card {
+    background-color: var(--grn-clr);
+    height: 251px;
+}
+
+.left-sec {
+    width: 55%;
+}
+
+.left-sec h3 {
+    font-size: var(--fs-heading-3);
+}
+
+.left-card h3 {
+    background-color: var(--grn-clr);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.button-sec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.right-sec{ 
+    width: 40%;
+}
+
+.right-sec img {
+    width: 100%;
+}
+
+/* Working Section */
+
