@@ -202,7 +202,7 @@ body {
 
 .right-card {
     background-color: var(--grn-clr);
-    height: 251px;
+    padding: 45px;
 }
 
 .left-sec {
@@ -641,4 +641,55 @@ form > textarea {
 
 .footer-last-content div:nth-child(2) {
     text-decoration: underline solid;
+}
+
+@media (max-width: 1220px) {
+    .last-link {
+        padding: 12px 18px;
+    }
+    .hero-sec-left h1 {
+        font-size: var(--fs-heading-2);
+    }
+
+    .hero-sec-left p {
+        font-weight: var(--fs-heading-5);
+    }
+
+    .card {
+        width: 48%;
+    }
+
+    .left-sec h3 {
+        font-size: 24px;
+    }
+
+    .accordian-card {
+        padding: 20px 50px 12px;
+    }
+
+    .form-right-section img {
+        margin-left: 230px;
+    }
+
+    .second-right-sec {
+        width: 60%;
+    }
+
+    .contact-form-section {
+        padding-left: 40px;
+    }
+    
+    .nav-links-footer a {
+        font-size: 16px;
+    }
+
+    .icons-footer {
+        column-gap: 10px;
+    }
+
+    .services-heading h2,
+    .working-heading h2,
+    .contact-heading h2 {
+        font-size: var(--fs-heading-3);
+    }
 }
