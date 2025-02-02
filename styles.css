@@ -515,3 +515,130 @@ form > textarea {
 form > textarea {
     margin-bottom: 50px;
 }
+
+/* Footer */
+
+.footer-content {
+    background-color: var(--blck-clr);
+    padding: 60px 80px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.top-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 16%;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.nav-links-footer ul {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav-links-footer a {
+    font-size: var(--fs-heading-5);
+    color: var(--wht-clr);
+    text-decoration: underline solid;
+}
+
+.icons-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.icons-footer img {
+    cursor: pointer;
+}
+
+.second-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-left-sec {
+    width: 40%;
+}
+
+.second-left-sec div {
+    color: var(--wht-clr);
+    font-size: var(--fs-heading-5);
+}
+
+.second-left-sec h4{
+    font-size: var(--fs-heading-4);
+    color: var(--blck-clr);
+    background-color: var(--grn-clr);
+    display: inline-block;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.address {
+    width: 80%;
+    line-height: 24px;
+}
+
+.second-right-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 50px 20px;
+    background-color: #292A32;
+    border-radius: 14px;
+}
+
+.second-right-sec input {
+    width: 48%;
+    padding: 20px 28px;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.second-right-sec input:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.second-right-sec input:nth-child(1):focus {
+    outline: none;
+}
+
+.second-right-sec input:nth-child(2) {
+    border: none;
+    background-color: var(--grn-clr);
+    color: var(--blck-clr);
+}
+
+.footer-horizontal-line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--wht-clr);
+    border-radius: 4px;
+    margin: 40px 0;
+}
+
+.footer-last-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    color: var(--wht-clr);
+}
+
+.footer-last-content div:nth-child(2) {
+    text-decoration: underline solid;
+}
