@@ -455,3 +455,63 @@ input[type="checkbox"] {
 .contact-txt p {
     width: 60%;
 }
+
+/* Contact Form Section */
+
+.contact-form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--wht-clr);
+    padding: 60px 0 60px 80px;
+    border-radius: 45px;
+    margin: 80px auto;
+}
+
+.form-left-section {
+    width: 50%;
+}
+
+.form-right-section {
+    width: 50%;
+    overflow: hidden;
+}
+
+.form-right-section img {
+    width: 100%;
+    margin-left: 260px;
+}
+
+.radio-section {
+    margin-bottom: 60px;
+}
+
+.radio-section > label {
+    margin-right: 14px;
+    font-size: var(--fs-heading-5);
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.block-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form > input ,
+form > textarea {
+    display: block;
+    padding: 14px 18px;
+    width: 100%;
+    border: 1px solid #000000;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+form > textarea {
+    margin-bottom: 50px;
+}
