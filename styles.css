@@ -211,12 +211,16 @@ body {
 
 .left-sec h3 {
     font-size: var(--fs-heading-3);
+    border-radius: 7px;
+    padding: 10px;
 }
 
 .left-card h3 {
     background-color: var(--grn-clr);
-    border-radius: 7px;
-    padding: 10px;
+}
+
+.right-card h3 {
+    background-color: var(--wht-clr);
 }
 
 .button-sec {
@@ -236,3 +240,197 @@ body {
 
 /* Working Section */
 
+.working-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 60px;
+    margin: 60px auto;
+}
+
+.working-heading h2 {
+    font-size: var(--fs-heading-2);
+    background-color: var(--grn-clr);
+    padding: 8px 16px;
+    border-radius: 7px;
+}
+
+.working-txt p {
+    width: 70%;
+}
+
+/* Accordian Section */
+
+.accordian-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.accordian-card {
+    background-color: var(--wht-clr);
+    border-radius: 45px;
+    padding: 30px 50px 15px;
+    border: 2px solid var(--blck-clr);
+    cursor: pointer;
+}
+
+.visible-card-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visible-txt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.visible-txt h1 {
+    font-size: var(--fs-heading-1);
+}
+
+.visible-txt h3 {
+    font-size: var(--fs-heading-3);
+}
+
+.hidden-horizontal-line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--blck-clr);
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.hide-card-sec {
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.hide-card-sec p {
+    font-size: var(--fs-heading-5);
+    padding-bottom: 14px;
+}
+
+.visible-icon .plus-icon img:nth-child(1) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#accordian-check:checked ~ .accordian-card1 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check:checked ~ .accordian-card1 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check:checked ~ .accordian-card1 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check:checked ~ .accordian-card1 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+#accordian-check2:checked ~ .accordian-card2 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check2:checked ~ .accordian-card2 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check2:checked ~ .accordian-card2 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check2:checked ~ .accordian-card2 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+#accordian-check3:checked ~ .accordian-card3 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check3:checked ~ .accordian-card3 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check3:checked ~ .accordian-card3 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check3:checked ~ .accordian-card3 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check4:checked ~ .accordian-card4 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check4:checked ~ .accordian-card4 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check4:checked ~ .accordian-card4 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check4:checked ~ .accordian-card4 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+#accordian-check5:checked ~ .accordian-card5 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check5:checked ~ .accordian-card5 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check5:checked ~ .accordian-card5 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check5:checked ~ .accordian-card5 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+#accordian-check6:checked ~ .accordian-card6 {
+    background-color: var(--grn-clr);
+}
+
+#accordian-check6:checked ~ .accordian-card6 .plus-icon > img:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#accordian-check6:checked ~ .accordian-card6 .plus-icon > img:nth-child(2) {
+    display: none;
+}
+
+#accordian-check6:checked ~ .accordian-card6 > .hide-card-sec {
+    height: 83px;
+    visibility: visible;
+    opacity: 1;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
