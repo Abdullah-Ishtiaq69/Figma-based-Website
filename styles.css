@@ -251,7 +251,7 @@ body {
 .working-heading h2 {
     font-size: var(--fs-heading-2);
     background-color: var(--grn-clr);
-    padding: 8px 16px;
+    padding: 10px 18px;
     border-radius: 7px;
 }
 
@@ -433,4 +433,25 @@ body {
 
 input[type="checkbox"] {
     display: none;
+}
+
+/* Contact Section */
+
+.contact-section {
+    margin: 60px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.contact-heading h2 {
+    font-size: var(--fs-heading-2);
+    background-color: var(--grn-clr);
+    padding: 10px 18px;
+    border-radius: 7px;
+}
+
+.contact-txt p {
+    width: 60%;
 }
